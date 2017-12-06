@@ -1,0 +1,39 @@
+.aside {
+    z-index: 30;
+    position: fixed;
+    top: 0;
+    width: 2.5em;
+    height: 100%;
+    background: #e5e4db;
+}
+
+.panel {
+    width: 1.5em;
+    margin: .625em auto;
+}
+
+.panel a {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #7e8282;
+}
+
+.panel li.sep {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cecdc5;
+}
+
+.panel li {
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+ol {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+}
