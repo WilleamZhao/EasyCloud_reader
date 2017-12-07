@@ -12,7 +12,7 @@ class MyAwesomeReactComponent extends Component{
                 return response.text();
             })
             .then(function (body){
-                console.log(body);
+                // console.log(body);
                 // document.body.innerHTML = body;
             });
     }

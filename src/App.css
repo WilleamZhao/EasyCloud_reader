@@ -12,12 +12,11 @@
 }
 
 .App-header {
-    background-color: transparent;r: #222;
-    height: 150px;
+    background-color: transparent;
+    height: 3rem;
     padding: 20px;
-    color: white;
-    font-size: 3rem;
-    color: rgba(255, 2, 5, 0.67);
+    font-size: 2rem;
+    color: #ff0205;
 }
 
 .App-title {

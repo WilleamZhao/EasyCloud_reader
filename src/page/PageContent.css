@@ -1,4 +1,15 @@
+.article {
+    position: relative;
+    width: 43.375em;
+    height: 58em;
+    margin: 0 auto;
+    padding-left: 0;
+    overflow: hidden;
+}
+
 .page {
+    text-align: left;
+    text-indent: 2rem;
     position: relative;
     float: left;
     height: 48em;
