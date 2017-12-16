@@ -7,27 +7,26 @@ import './App.css';
 import Aside from "./aside/Aside";
 import PageContent from "./page/PageContent";
 
-
-class Left extends Component {
-    render() {
-        return (
-            <div>{this.props.name}</div>
-        );
-    }
-}
-
-class Right extends Component {
-    render() {
-        return (
-            <div>{this.props.name}</div>
-        );
-    }
-}
-
-
-
-
 class App extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state ={
+            p: "",
+            tooltip: {
+                display: "none",
+                x: 0,
+                y: 0
+            }
+        };
+    }
+
+    titleTip(tooltip){
+        console.log(tooltip);
+        this.setState({
+
+        });
+    }
 
 
 
@@ -38,7 +37,7 @@ class App extends Component {
                     易云阅读器
                 </header>
                 <Aside/>
-                <PageContent/>
+                <PageContent titleTip={this.titleTip}/>
                 <MuiThemeProvider>
                     <MyAwesomeReactComponent />
                 </MuiThemeProvider>
