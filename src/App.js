@@ -28,11 +28,15 @@ class App extends Component {
         });
     }
 
+    tooltip(toolTip){
+
+    }
+
 
 
     render() {
         return (
-            <div className="App">
+            <div className="App" >
                 <header className="App-header">
                     易云阅读器
                 </header>
